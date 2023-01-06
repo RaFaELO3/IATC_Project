@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
   <!-- ===== Fonts ===== -->
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Oswald:wght@700&family=Roboto:ital,wght@1,400&family=Satisfy&display=swap">
   <!-- ===== Bootstrap 5.2 CSS ===== -->
   <link rel="stylesheet" href="assets/lib/bootstrap-5.2.3-dist/css/bootstrap.css">
   <!-- ===== Font Awesome CSS ===== -->
@@ -20,16 +23,382 @@
 
 <body>
   <!-- ===== Header Start ===== -->
-  <header>
-
+  <header class="d-flex align-items-center justify-content-between">
+    <div>
+      <a href="index.html" class="logo">
+        Good Food
+        <span class="logo-break">
+          Good Mood
+        </span>
+      </a>
+    </div>
+    <div class="hamburger">
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+    </div>
+    <nav class="nav-bar">
+      <ul>
+        <li>
+          <a href="#" class="active">Home</a>
+        </li>
+        <li>
+          <a href="products.html">Products</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
   </header>
   <!-- ===== Main Page Start ===== -->
   <main>
+    <section class="start">
+      <img src="/images/start_img.png" alt="">
+      <div class="container content">
+        <div class="wrap">
+          <div class="layout-col d-flex">
+            <div class="size-30">
+              <div class="row">
+                <div class="cell">
+                  <div class="line"></div>
+                  <div class="rectangle1"></div>
+                  <h1 class="text-uppercase oswald">good food<br>good mood</h1>
+                </div>
+              </div>
+            </div>
+            <div class="size-30">
+              <div class="row">
+                <div class="cell size-50" style="padding-right: 0;">
+                  <p class="cell-text">
+                    Born more than 40 years ago as Mr. Natural's Good Food Store, we're still Missoula's
+                    home for locally-produced, organic
+                    and bulk foods. Now our name's a little shorter. And the store’s a lot bigger. But
+                    our mission remains the same:
+                  </p>
+                  <div class="read">
+                    <a href="#" class="fst-italic">Read More</a>
+                  </div>
+                </div>
+                <div class="cell size-50 size-font" style="padding: 0;">
+                  <p class="cell-text1 fst-italic">
+                    The Good Food Store is dedicated to supporting a healthy community. We provide a
+                    wide selection of organic food and
+                    natural products, conduct our business in an ethical and respectful manner and
+                    donate to organizations in need.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec2">
+      <div class="container">
+        <div class="height">
+          <div class="grey shape"></div>
+          <div class="d-flex group position-relative">
+            <div class="d-flex justify-content-center flex-column container-layout">
+              <h2 class="text-uppercase oswald">
+                choosing good<br>just got easier.
+              </h2>
+              <p>
+                Our beef, chicken and turkey are raised without antibiotics and never given added hormones.
+                They are never fed animal
+                byproducts. Our nitrate-free, uncured bacon comes from pigs that are never given any
+                antibiotics or hormones and are
+                vegetarian fed. We only use ingredients that we would serve our own families. We do the
+                worrying – so you don’t have to.
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </section>
+    <section class="food s-mg position-relative">
+      <div class="container">
+        <div class="row position-relative ">
+          <div class="col-lg-3 col-md-6 col-sm-12 food-box d-flex">
+            <img class="food-img" src="/images/food-img1.jpg" alt="">
+            <div class="modal-text d-flex flex-column align-items-center">
+              <h3 class="fw-bold name">Frozen Raspberry Split Dessert</h3>
+              <p class="price">Price: 15$</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 food-box d-flex">
+            <img src="/images/food-img2.jpg" class="food-img" alt="">
+            <div class="modal-text d-flex flex-column align-items-center">
+              <h3 class="fw-bold name">Steamed Meat Buns</h3>
+              <p class="price">Price: 20$</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 food-box d-flex">
+            <img src="/images/food-img3.jpg" class="food-img" alt="">
+            <div class="modal-text d-flex flex-column align-items-center">
+              <h3 class="fw-bold name">Avocado Salad</h3>
+              <p class="price">Price: 10$</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 food-box d-flex">
+            <img src="/images/food-img4.jpeg" class="food-img" alt="">
+            <div class="modal-text d-flex flex-column align-items-center">
+              <h3 class="fw-bold name">Marinated Beef Stew</h3>
+              <p class="price">Price: 30$</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 food-box d-flex">
+            <img src="/images/food-img5.jpg" class="food-img" alt="">
+            <div class="modal-text d-flex flex-column align-items-center">
+              <h3 class="fw-bold name">Toast</h3>
+              <p class="price">Price: 5$</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 food-box d-flex">
+            <img src="/images/food-img6.jpg" class="food-img" alt="">
+            <div class="modal-text d-flex flex-column align-items-center">
+              <h3 class="fw-bold name">Breakfast</h3>
+              <p class="price">Price: 12$</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 food-box d-flex">
+            <img src="/images/food-img7.jpg" class="food-img" alt="">
+            <div class="modal-text d-flex flex-column align-items-center">
+              <h3 class="fw-bold name">Fresh Fruit Juice</h3>
+              <p class="price">Price: 8$</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 food-box d-flex">
+            <img src="/images/food-img8.jpg" class="food-img" alt="">
+            <div class="modal-text d-flex flex-column align-items-center">
+              <h3 class="fw-bold name">Organic Vegetable Juice</h3>
+              <p class="price">Price: 9$</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup">
+        <div class="content">
+          <span class="close">&times</span>
+          <div class="container">
+            <div class="modal-text d-flex flex-column align-items-center position-relative">
+              <h3 class="fw-bold name">Sweet</h3>
+              <p class="price">Price: 30$</p>
+            </div>
+            <img class="food-img" src="/images/food-img1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 py-5 hover">
+            <div class="cat">
+              <img src="images/meat.png" class="menu-icon" alt="">
+              <h3 class="my-3 oswald">Meat</h3>
+              <div class="text">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing.</div>
+              <img class="menu-img" src="/images/menu-img1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-4 py-5 hover">
+            <div class="cat">
+              <img src="images/fish.png" class="menu-icon" alt="">
+              <h3 class="my-3 oswald">Fish</h3>
+              <div class="text">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing.</div>
+              <img class="menu-img" src="/images/menu-img2.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-4 py-5 hover">
+            <div class="cat">
+              <img src="images/harvest.png" class="menu-icon" alt="">
+              <h3 class="my-3 oswald">Vegetables</h3>
+              <div class="text">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing.</div>
+              <img class="menu-img" src="/images/menu-img3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 py-5 hover">
+            <div class="cat">
+              <img src="images/drink.png" class="menu-icon" alt="">
+              <h3 class="my-3 oswald">Fruits</h3>
+              <div class="text">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing.</div>
+              <img class="menu-img" src="/images/menu-img4.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-4 py-5 hover">
+            <div class="cat">
+              <img src="images/ladoo.png" class="menu-icon" alt="">
+              <h3 class="my-3 oswald">Sweets</h3>
+              <div class="text">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing.</div>
+              <img class="menu-img" src="/images/menu-img5.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-4 py-5 hover">
+            <div class="cat">
+              <img src="images/drink.png" class="menu-icon" alt="">
+              <h3 class="my-3 oswald">Juice</h3>
+              <div class="text">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing.</div>
+              <img class="menu-img" src="/images/menu-img6.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup">
+        <div class="content">
+          <span class="close">&times</span>
+          <div class="container">
+            <img class="menu-img" src="/images/menu-img1.jpg" alt="">
+            <div class="menu-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta impedit quidem
+              repellendus, quasi quibusdam dignissimos obcaecati quod asperiores quas culpa vel non odit mollitia
+              molestias quam officiis cum earum illum!</div>
+            <button class="order">Order Now!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="col6 mt-4">
+      <div class="row gx-0">
+        <div class="col-md-6">
+          <div class="text position-relative">
+            <h2 class="text-uppercase oswald">EATING WELL SHOULD TASTE GOOD, TOO.</h2>
+            <div class="rectangle"></div>
+            <div class="sub">
+              That’s why our recipes are created by a real chef. Our test kitchen is a real restaurant. Our
+              ingredients are the best
+              we can find—organic whenever possible. And we add nothing unnecessary. Ever. There’s no need
+              when you start with
+              ingredients whose flavors stand out naturally.
+            </div>
+            <a href="#" class="fst-italic">Read More</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
 
+              <div class="img1 slide first"></div>
+              <div class="img2 slide"></div>
+              <div class="img3 slide"></div>
+
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+              </div>
+
+              <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gx-0">
+        <div class="col-md-6">
+          <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn1" id="radio4">
+              <input type="radio" name="radio-btn1" id="radio5">
+              <input type="radio" name="radio-btn1" id="radio6">
+
+              <div class="img4 slide second"></div>
+              <div class="img5 slide"></div>
+              <div class="img6 slide"></div>
+
+              <div class="navigation-auto">
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+              </div>
+
+              <div class="navigation-manual">
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+                <label for="radio6" class="manual-btn"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="text position-relative">
+            <h2 class="text-uppercase oswald">EATING WELL SHOULD BE SIMPLE.</h2>
+            <div class="rectangle"></div>
+            <div class="sub sub2">
+              Yet finding the time to make delicious, wholesome meals is hard. We’re changing that—one
+              mouthwatering meal at a time.
+              By preparing simple recipes you can feel good about eating, that are ready in minutes. And taste
+              better than you ever
+              thought frozen food could.
+            </div>
+            <a href="#" class="fst-italic">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <div class="height">
+          <div class="grey shape"></div>
+          <div class="d-flex group position-relative">
+            <div class="d-flex justify-content-center flex-column container-layout">
+              <span class="quote">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="64px" height="64px" viewBox="0 -5 34 34">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="m2.4 24h7.2l4.8-9.6v-14.4h-14.4v14.4h7.2zm19.2 0h7.2l4.8-9.6v-14.4h-14.4v14.4h7.2z" />
+                  </g>
+                </svg>
+              </span>
+              <p>
+                "Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur, mauris in
+                auctor euismod, quam elit
+                ultrices urna, eget eleifend arcu risus id metus. Maecenas ex enim, mattis eu velit vitae,
+                blandit mattis sapien. Sed
+                aliquam leo et semper vestibulum."
+              </p>
+              <h5 class="oswald">
+                Jack Alvarez
+              </h5>
+              <h6>Chief Accountant</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact-area">
+        <p class="text-center">Have a question?</p>
+        <h1 class="text-uppercase fw-bold text-center mb-4">contact us</h1>
+        <form>
+          <div class="form d-flex flex-column">
+            <input type="text" id="" placeholder="Your Name">
+            <input type="email" id="" placeholder="Your Email">
+            <textarea name="" id="" cols="30" rows="5" style="resize: none;"
+              placeholder="Enter Your Message"></textarea>
+          </div>
+          <button class="submit mt-3">Submit</button>
+        </form>
+      </div>
+    </section>
   </main>
   <!-- ===== Footer Start ===== -->
-  <footer>
-    
+  <footer class="d-flex justify-content-center">
+    <span class="footer-text">
+      <a href="#">Template</a> created by <a href="#">Fakhriyya Baghirova</a>
+    </span>
   </footer>
 
   <!-- ==== Bootstrap 5.2 JS ==== -->

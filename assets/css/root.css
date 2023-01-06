@@ -1,4 +1,14 @@
 :root {
-    
-    
+    --family-Osw:'Oswald', sans-serif;
+    --family-OS:'Open Sans', sans-serif;
+    --family-Rlw:'Raleway', sans-serif;
+    --family-Satisfy:'Satisfy', cursive;
+    --familt-Rbt:'Roboto', sans-serif;
+
+    --yellow:#fabd02;
+    --yellow-hover:#d39f01;
+    --white:#fefefe;
+    --dark:#11101b;
+    --slider-color:#c5a67c;
+
 }
