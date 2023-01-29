@@ -22,3 +22,9 @@ html {
 .oswald {
     font-family: var(--family-Osw);
 }
+
+.vertical-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
