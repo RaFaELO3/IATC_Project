@@ -1,6 +1,4 @@
-/*global $, document, window, setTimeout, navigator, console, location*/
 $(document).ready(function () {
-
     'use strict';
 
     var usernameError = true,
@@ -15,11 +13,10 @@ $(document).ready(function () {
 
     // Label effect
     $('input').focus(function () {
-
         $(this).siblings('label').addClass('active');
     });
 
-    // Form validation
+    // Validation
     $('input').blur(function () {
 
         // User Name
@@ -75,7 +72,7 @@ $(document).ready(function () {
     });
 
 
-    // form switch
+    // Form switch
     $('a.switch').click(function (e) {
         $(this).toggleClass('active');
         e.preventDefault();
@@ -88,7 +85,6 @@ $(document).ready(function () {
     });
 
 
-    // Form submit
     $('form.signup-form').submit(function (event) {
         event.preventDefault();
 
@@ -106,10 +102,8 @@ $(document).ready(function () {
         }
     });
 
-    // Reload page
     $('a.profile').on('click', function () {
         location.reload(true);
     });
-
 
 });
