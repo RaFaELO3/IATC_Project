@@ -7,66 +7,6 @@ body {
     color: #111111;
 }
 
-/* ---Header Start--- */
-
-header {
-    position: absolute;
-    width: 100%;
-    height: 80px;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 100px;
-    font-family: var(--family-OS);
-}
-
-.logo {
-    font-size: 25px;
-    font-weight: bold;
-    font-family: var(--family-Satisfy);
-    color: var(--yellow);
-    text-decoration: none;
-}
-
-.logo:hover {
-    color: var(--yellow);
-}
-
-.hamburger {
-    display: none;
-}
-
-.nav-bar ul {
-    display: flex;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-
-.nav-bar ul li a {
-    display: block;
-    color: var(--white);
-    font-size: 20px;
-    padding: 10px 25px;
-    border-radius: 50px;
-    transition: 0.2s;
-    margin: 0 5px;
-    text-decoration: none;
-}
-
-.nav-bar ul li a:hover {
-    color: var(--dark);
-    background: var(--white);
-}
-
-.nav-bar ul li a:active {
-    color: var(--dark);
-    background: var(--white);
-}
-
-/* ---Header End--- */
-
-
 /* ---Contact Start--- */
 
 .contact-bg {
