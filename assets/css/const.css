@@ -38,6 +38,8 @@ header {
     height: 80px;
     background: var(--dark);
     padding: 0 100px;
+    font-family: var(--family-OS);
+
 }
 
 .logo {

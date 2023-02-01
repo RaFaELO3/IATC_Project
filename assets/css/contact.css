@@ -5,14 +5,25 @@
 
 body {
     color: #111111;
+    background-image: url(../../images/contactBg.jpg)!important;
+    background-position: 50% 0;
+    background-size: cover;
 }
+
+/* ---Header Start--- */
+
+header {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ---Header End--- */
 
 /* ---Contact Start--- */
 
 .contact-bg {
-    background: url("https://images02.nicepagecdn.com/c461c07a441a5d220e8feb1a/892364894fd35bc8867dd5be/wdq-min.jpg") no-repeat!important;
-    background-position: 50% 0;
-    background-size: cover;
     min-height: 800px;
 }
 
