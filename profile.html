@@ -95,32 +95,40 @@
                         </div>
                         <div class="card mb-4 mb-lg-0">
                             <div class="card-body p-0">
-                                <ul class="list-group list-group-flush rounded-3">
-                                    <li class="list-group-item d-flex align-items-center p-3">
+                                <ul class="list-group list-group-flush rounded-3 settings">
+                                    <li class="setting-tab active list-group-item d-flex align-items-center p-3"
+                                        data-target="generalInfo">
                                         <i class="fa-solid px-2 fa-user"></i>
-                                        <p class="mb-0">General Information</p>
+                                        <p class="mb-0">
+                                            <a class="oswald">General Information</a>
+                                        </p>
                                     </li>
-                                    <li class="list-group-item d-flex align-items-center p-3">
+                                    <li class="setting-tab list-group-item d-flex align-items-center p-3"
+                                        data-target="editProfile">
                                         <i class="fa-solid px-2 fa-user-pen"></i>
-                                        <p class="mb-0">Edit Profile</p>
+                                        <p class="mb-0">
+                                            <a class="oswald">Edit Profile</a>
+                                        </p>
                                     </li>
                                     <li class="list-group-item d-flex align-items-center p-3">
                                         <i class="fa-solid px-2 fa-right-from-bracket"></i>
-                                        <p class="mb-0">Sign out</p>
+                                        <p class="mb-0">
+                                            <a class="oswald" href="auth.html">Sign Out</a>
+                                        </p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-8">
-                        <div class="card mb-4">
+                    <div class="col-lg-8" id="profilePanel">
+                        <div class="card mb-4 generalInfo panel active">
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-sm-3">
                                         <p class="mb-0">Full Name</p>
                                     </div>
                                     <div class="col-sm-9">
-                                        <p class="text-muted mb-0">Johnatan Smith</p>
+                                        <p class="text-muted mb-0">Jonathan Smith</p>
                                     </div>
                                 </div>
                                 <hr>
@@ -141,42 +149,59 @@
                                         <p class="text-muted mb-0">(097) 234-5678</p>
                                     </div>
                                 </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-sm-3">
-                                        <p class="mb-0">Mobile</p>
+                            </div>
+                        </div>
+                        <div class="card mb-4 editProfile panel">
+                            <div class="card-body">
+                                <form class="form">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <p class="mb-0">Full Name</p>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="mb-0 border-0 border-bottom" value="Jonathan Smith" required>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-9">
-                                        <p class="text-muted mb-0">(098) 765-4321</p>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <p class="mb-0">Email</p>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <input type="email" class="mb-0 border-0 border-bottom" value="example@example.com" required>
+                                        </div>
                                     </div>
-                                </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-sm-3">
-                                        <p class="mb-0">Address</p>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <p class="mb-0">Phone</p>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <input type="tel" class="mb-0 border-0 border-bottom" value="(097) 234-5678" required>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-9">
-                                        <p class="text-muted mb-0">Bay Area, San Francisco, CA</p>
-                                    </div>
-                                </div>
+                                    <hr>
+                                    <button class="btn btn-warning font-monospace text-white"> Save Changes </button>
+                                </form>
                             </div>
                         </div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-12 col-md-6">
+                                <div class="col-lg-12 col-md-12">
                                     <div class="tab" role="tabpanel">
                                         <!-- Nav tabs -->
                                         <ul class="nav nav-tabs" role="tablist">
-                                            <li role="presentation" class="nav-item col-md-6">
+                                            <li role="presentation" class="nav-item col-6">
                                                 <button class="nav-link active oswald" id="fav-tab" data-bs-toggle="tab"
                                                     data-bs-target="#fav-tab-pane" type="button" role="tab"
                                                     aria-controls="fav-tab-pane"
                                                     aria-selected="true">Favourites</button>
                                             </li>
-                                            <li role="presentation" class="nav-item col-md-6">
+                                            <li role="presentation" class="nav-item col-6">
                                                 <button class="nav-link oswald" id="review-tab" data-bs-toggle="tab"
                                                     data-bs-target="#review-tab-pane" type="button" role="tab"
-                                                    aria-controls="review-tab-pane" aria-selected="true">Recently viewed</button>
+                                                    aria-controls="review-tab-pane" aria-selected="false">Recently
+                                                    viewed</button>
                                             </li>
                                         </ul>
                                         <!-- Tab panes -->

@@ -1,10 +1,16 @@
 :root {
+    /* ======================= 
+        Font Family
+    =========================*/
     --family-Osw:'Oswald', sans-serif;
     --family-OS:'Open Sans', sans-serif;
     --family-Rlw:'Raleway', sans-serif;
     --family-Satisfy:'Satisfy', cursive;
     --familt-Rbt:'Roboto', sans-serif;
 
+    /* ======================= 
+        Colors
+    =========================*/
     --yellow:#fabd02;
     --yellow-hover:#d39f01;
     --white:#fefefe;
