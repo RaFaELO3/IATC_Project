@@ -1,5 +1,4 @@
 @import url(const.css);
-@import url(media.css);
 
 /* ---Section1 Start--- */
 
@@ -408,14 +407,14 @@ a {
 }
 
 .col6 .img2 {
-    background: url(/../../images/salad1.jpg) no-repeat;
+    background: url(../../images/salad1.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 604px;
 }
 
 .col6 .img3 {
-    background: url(/../../images/salad2.jpg) no-repeat;
+    background: url(../../images/salad2.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 604px;
@@ -429,14 +428,14 @@ a {
 }
 
 .col6 .img5 {
-    background: url(/../../images/food1.jpg) no-repeat;
+    background: url(../../images/food1.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 604px;
 }
 
 .col6 .img6 {
-    background: url(/../../images/food2.jpg) no-repeat;
+    background: url(../../images/food2.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 604px;
