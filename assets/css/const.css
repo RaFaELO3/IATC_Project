@@ -253,7 +253,7 @@ footer .container{
     border-bottom: 4px dotted rgba(242, 246, 247, .3);
 }
 
-footer .img-container img {
+.footer-img-container img {
     width: 120px;
 }
 
@@ -288,11 +288,12 @@ footer .label {
 
 footer ul {
     margin-left: -25px;
+    display: block!important;
 }
 
 footer ul li {
-    display: flex;
-    justify-content: space-between;
+    display: flex!important;
+    justify-content: space-between!important;
 }
 
 footer .foot-footer {
