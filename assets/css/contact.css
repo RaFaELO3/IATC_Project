@@ -1,5 +1,4 @@
 @import url(const.css);
-@import url(media.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&family=Satisfy&display=swap');
 
 
@@ -9,17 +8,6 @@ body {
     background-position: 50% 0;
     background-size: cover;
 }
-
-/* ---Header Start--- */
-
-header {
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* ---Header End--- */
 
 /* ---Contact Start--- */
 

@@ -4,17 +4,7 @@
     }
 }
 
-@media (max-width:1320px) {
-    header {
-        padding: 0 50px;
-    }
-}
-
 @media (max-width: 1200px) {
-
-    header {
-        padding: 0 30px;
-    }
 
     .start img {
         width: calc(((100% - 940px) / 2) + 341px);
