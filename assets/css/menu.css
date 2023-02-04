@@ -280,30 +280,6 @@ a:active {
 /* ---Menu End--- */
 
 
-/* ---Footer Start--- */
-
-footer {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background-color: #333;
-    font-size: 0.875rem;
-    color: white;
-    width: 100%;
-}
-
-.footer-text a {
-    text-decoration-thickness: 1.5px;
-    color: #fabd02;
-}
-
-.footer-text a:hover {
-    color: #d39f01;
-    text-decoration: none;
-}
-
-/* ---Footer End--- */
-
-
 @media (max-width:992px) {
     .text-container {
         width: 90%;
