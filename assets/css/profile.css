@@ -4,6 +4,10 @@
         Profile Start
 =========================*/
 
+.pfp{
+    width: 50%;
+}
+
 .social-icons {
     padding: 20px 0;
 }
