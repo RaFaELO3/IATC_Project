@@ -43,6 +43,7 @@ header {
     opacity: 1;
     transition: .6s ease-in-out;
     position: relative;
+    z-index:99999;
 }
 
 .header-frame > div{
@@ -197,6 +198,9 @@ header {
     }
 
     .mobile-menu.active {
+        height: auto;
+        width: 100%;
+        background-color: var(--dark);
         visibility: visible;
         opacity: 1;
     }

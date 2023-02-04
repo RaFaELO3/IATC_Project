@@ -1,94 +1,80 @@
-
 const root = document.getElementById("root")
 const cardContainer = document.getElementById("cards")
 const members = [
     {
         Id: 1,
-        Image: "./images/member1.png",
+        Image: "images/boy-chef.jpg",
         Name: "Əli Yaqubov",
     },
-
     {
         Id: 2,
-        Image: "./images/member2.jpg",
+        Image: "images/boy-chef.jpg",
         Name: "Aqil Rüstəmov",
     },
-
     {
         Id: 3,
-        Image: "./images/member3.jpg",
+        Image: "images/girl-chef.jpg",
         Name: "Leyla Qasımova",
     },
-
     {
         Id: 4,
-        Image: "./images/member4.jpg",
+        Image: "images/boy-chef.jpg",
         Name: "Azər Aslanov",
     },
-
     {
         Id: 5,
-        Image: "./images/member5.png",
+        Image: "images/girl-chef.jpg",
         Name: "Fəridə Dadaşova",
     },
-
     {
         Id: 6,
-        Image: "./images/member6.png",
+        Image: "images/girl-chef.jpg",
         Name: "Natalie Baxışova",
     },
-
     {
         Id: 7,
-        Image: "./images/member7.png",
+        Image: "images/boy-chef.jpg",
         Name: "Artur Jackson",
     },
-
     {
         Id: 8,
-        Image: "./images/member8.png",
+        Image: "images/girl-chef.jpg",
         Name: "Nərgiz  Əhmədova",
     },
-
     {
         Id: 9,
-        Image: "./images/member9.png",
+        Image: "images/boy-chef.jpg",
         Name: "Şahin  Əsədov",
     },
-
     {
         Id: 10,
-        Image: "./images/member10.png",
+        Image: "images/girl-chef.jpg",
         Name: "İlahə İbrahimova",
     },
-
     {
         Id: 11,
-        Image: "./images/member11.jpg",
+        Image: "images/boy-chef.jpg",
         Name: "Rasim Rüstəmov",
     },
-
     {
         Id: 12,
-        Image: "./images/member12.png",
+        Image: "images/boy-chef.jpg",
         Name: "İlkin Rüstəmov",
     },
-
     {
         Id: 13,
-        Image: "./images/member13.jpg",
+        Image: "images/boy-chef.jpg",
         Name: "Səməd Aslanov",
     },
-
     {
         Id: 14,
-        Image: "./images/member14.png",
+        Image: "images/boy-chef.jpg",
         Name: "Murad Abbosov",
     },
 ]
 
 members.forEach(function (member) {
-    cardContainer.innerHTML += `<div class="col-md-4 col-sm-6">
+    cardContainer.innerHTML += `<div class="col-lg-4 col-md-6 col-sm-12">
     <div class="card" data-id="${member.Id}">
         <div class="img-container col-md-12">
             <img class="img-fluid member-img" src="${member.Image}">
@@ -101,22 +87,20 @@ members.forEach(function (member) {
 })
 
 const cards = document.querySelectorAll(".card")
-
-const popup = document.querySelector(".pop-up-container")
-var popupImg = document.querySelector(".pop-up .image img")
-var popupName = document.querySelector(".pop-name")
+const popup = document.querySelector(".team-modal")
+var popupImg = document.querySelector(".popup-img")
+var popupName = document.querySelector(".member-name")
 
 cards.forEach(card => {
     card.addEventListener("click", () => {
         const result = members.find(m=>m.Id == card.dataset.id)
         popupImg.src = result.Image
         popupName.innerText = result.Name
-        popup.classList.add("pop-up-active");
+        popup.classList.add("modal-active");
     })
 })
 
-const close = document.querySelector(".close button");
+const close = document.querySelector(".modal-close");
 close.addEventListener("click", () => {
-    popup.classList.remove("pop-up-active");
+    popup.classList.remove("modal-active");
 })
-

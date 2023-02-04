@@ -2,114 +2,150 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Team</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/team.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&family=Satisfy&family=Josefin+Sans:wght@300;400;600;700&family=Playfair+Display:wght@900&display=swap">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/team.css">
+
 </head>
 
 <body>
+  <div id="root">
+    <!-- ===== Header Start ===== -->
     <header>
-        <div class="header-frame">
-          <div class="header-menu">
-            <div class="desktop-menu">
-              <div class="logo">
-                <a href="index.html" class="logo">
-                  Good Food
-                  <span class="logo-break">
-                    Good Mood
-                  </span>
-                </a>
-              </div>
-              <div class="nav-menu">
-                <ul class="nav">
-                  <li class="active">
-                    <a href="index.html">Home</a>
-                  </li>
-                  <li>
-                    <a href="about.html">About</a>
-                  </li>
-                  <li>
-                    <a href="menu.html">Menu</a>
-                  </li>
-                  <li><a href="team.html">Our Team</a></li>
-                  <li>
-                    <a href="contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="profile-menu">
-                <a href="profile.html" class="profile-btn">
-                  <i class="fa-solid fa-user"></i>
-                  <span class="ms-2">Profile</span>
-                </a>
-              </div>
-              <div class="hamburger-menu">
-                <a href="#" class="hamburger">
-                  <i class="fas fa-bars"></i>
-                </a>
-              </div>
-            </div>     
-          </div>
-          <div class="mobile-menu">
-            <ul class="nav">
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a href="about.html">About</a>
-              </li>
-              <li>
-                <a href="menu.html">Menu</a>
-              </li>
-              <li>
-                <a href="team.html">Our Team</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
-              </li>
-            </ul>
+      <div class="header-frame">
+        <div class="header-menu">
+          <div class="desktop-menu">
+            <div class="logo">
+              <a href="index.html" class="logo">
+                Good Food
+                <span class="logo-break">
+                  Good Mood
+                </span>
+              </a>
+            </div>
+            <div class="nav-menu">
+              <ul class="nav">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="about.html">About</a>
+                </li>
+                <li>
+                  <a href="menu.html">Menu</a>
+                </li>
+                <li class="active"><a href="team.html">Our Team</a></li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="profile-menu">
+              <a href="profile.html" class="profile-btn">
+                <i class="fa-solid fa-user"></i>
+                <span class="ms-2">Profile</span>
+              </a>
+            </div>
+            <div class="hamburger-menu">
+              <a href="#" class="hamburger">
+                <i class="fas fa-bars"></i>
+              </a>
+            </div>
           </div>
         </div>
-      </header>
-    <div id="root">
-        <div class="container mt-5">
-            <div class="row px-md-5 mt-5" id="cards"></div>
+        <div class="mobile-menu">
+          <ul class="nav">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="menu.html">Menu</a>
+            </li>
+            <li>
+              <a href="team.html">Our Team</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-    </div>
-
-    <div class="pop-up-container">
-        <div class="pop-up">
-            <div class="close d-flex justify-content-end px-5">
-                <button>
-                    <i class="fa-solid fa-x"></i>
-                </button>
-            </div>
-            <div class="shadow1 row">
-                <div class="col-md-6 d-flex justify-content-center align-items-center" style="height: 50vh;">
-                    <div class="image image1">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 pop-up-text px-4 mt-5">
-                    <h1 class="pop-name"></h1>
-                    <p></p>
-                </div>
-            </div>
+      </div>
+    </header>
+    <!-- ===== Main Page Start ===== -->
+    <main>
+      <div class="menu-start">
+        <div class="mt-5 mb-3">
+          <div class="m-auto mb-3 menu-start-line"></div>
+          <h5 class="d-flex justify-content-center menu-start-text">Team</h5>
         </div>
-    </div>
+        <h1 class="mb-4 d-flex justify-content-center menu-start-main-text text-center"> Our Chefs</h1>
+        <button class="d-block m-auto mt-4 home-menu">
+          <a href="index.html">Home</a>
+          <span class="mx-2" style="font-size: 13px;">&#62;</span>
+          <span class="tab">Team</span>
+        </button>
+      </div>
+
+      <section class="background-white">
+        <div class="container mt-2">
+          <h3 class="section-title">
+            They are ready to treat you
+          </h3>
+          <p class="section-text">Porro eveniet, autem ipsam corrupti consectetur cum.<br>Repudiandae dignissimos fugiat
+            sit nam.</p>
+          <div class="row px-md-2 mt-5" id="cards"></div>
+        </div>
+      </section>
+      <div class="team-modal">
+        <div class="modal-content mt-3 radius-50">
+          <div class="container p-0">
+            <div class="modal-header justify-content-end mb-2">
+              <svg class="modal-close" width="40" height="40" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                  d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6Z">
+                </path>
+              </svg>
+            </div>
+            <div class="modal-body text-center">
+              <div class="team-member">
+                <div class="img-box">
+                  <img class="img-fluid popup-img radius-20" src="">
+                </div>
+                <p class="member-name"></p>
+                <p class="description">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis
+                  glavrid from dolor amet iquam lorem bibendum</p>
+                <div class="d-flex justify-content-center">
+                  <i class="fa-brands fa-facebook-f fa-xl m-2 green-text"></i>
+                  <i class="fa-brands fa-twitter fa-xl m-2 green-text"></i>
+                  <i class="fa-brands fa-instagram fa-xl m-2 green-text"></i>
+                  <i class="fa-brands fa-linkedin-in fa-xl m-2 green-text"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-    <script src="assets/js/team.js"></script>
-    <script src="assets/js/layout.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/team.js"></script>
+  <script src="assets/js/layout.js"></script>
 
 </body>
 
