@@ -1,4 +1,5 @@
 @import url(const.css);
+
 .img-wrap img{
         aspect-ratio: 600/450 !important;
         object-fit: cover;
