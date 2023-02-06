@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+a:active{
+    color: var(--white)!important;
+}
+
 html {
     scroll-behavior: smooth;
 }
