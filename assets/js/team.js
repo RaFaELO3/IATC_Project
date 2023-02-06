@@ -3,48 +3,48 @@ const cardContainer = document.getElementById("cards")
 const members = [
     {
         Id: 1,
-        Image: "images/boy-chef.jpg",
-        Name: "Əli Yaqubov",
+        Image: "images/johnathan-macedo.jpg",
+        Name: "Johnathan Macedo",
     },
     {
         Id: 2,
-        Image: "images/boy-chef.jpg",
-        Name: "Aqil Rüstəmov",
+        Image: "images/rod-long.jpg",
+        Name: "Rod Long",
     },
     {
         Id: 3,
-        Image: "images/girl-chef.jpg",
-        Name: "Leyla Qasımova",
+        Image: "images/mckayla-maroney.jpg",
+        Name: "Mckayla Maroney",
     },
     {
         Id: 4,
-        Image: "images/boy-chef.jpg",
-        Name: "Azər Aslanov",
+        Image: "images/amina-filkins.png",
+        Name: "Amina Filkins",
     },
     {
         Id: 5,
-        Image: "images/girl-chef.jpg",
-        Name: "Fəridə Dadaşova",
+        Image: "images/petr-sevcovic.png",
+        Name: "Petr Sevcovic",
     },
     {
         Id: 6,
-        Image: "images/girl-chef.jpg",
-        Name: "Natalie Baxışova",
+        Image: "images/chen-mei-zhen.png",
+        Name: "Chen Mei Zhen",
     },
     {
         Id: 7,
-        Image: "images/boy-chef.jpg",
-        Name: "Artur Jackson",
+        Image: "images/ekaterina-bolovtsova.jpg",
+        Name: "Ekaterina Bolovtsova",
     },
     {
         Id: 8,
-        Image: "images/girl-chef.jpg",
-        Name: "Nərgiz  Əhmədova",
+        Image: "images/bobby-flay.jpg",
+        Name: "Bobby Flay",
     },
     {
         Id: 9,
-        Image: "images/boy-chef.jpg",
-        Name: "Şahin  Əsədov",
+        Image: "images/andrea-piacquadio.png",
+        Name: "Andrea Piacquadio",
     }
 ]
 
@@ -52,7 +52,7 @@ members.forEach(function (member) {
     cardContainer.innerHTML += `<div class="col-lg-4 col-md-6 col-sm-12">
     <div class="card" data-id="${member.Id}">
         <div class="img-container col-md-12">
-            <img class="img-fluid member-img" src="${member.Image}">
+            <div class="member-img" style="background-image: url('${member.Image}')"></div>
         </div>
         <div class="text-con"> 
                 <h4>${member.Name}</h4>
