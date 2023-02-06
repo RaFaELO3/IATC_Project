@@ -40,6 +40,11 @@ const members = [
         Id: 8,
         Image: "images/girl-chef.jpg",
         Name: "Nərgiz  Əhmədova",
+    },
+    {
+        Id: 9,
+        Image: "images/boy-chef.jpg",
+        Name: "Şahin  Əsədov",
     }
 ]
 
