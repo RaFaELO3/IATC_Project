@@ -40,37 +40,7 @@ const members = [
         Id: 8,
         Image: "images/girl-chef.jpg",
         Name: "Nərgiz  Əhmədova",
-    },
-    {
-        Id: 9,
-        Image: "images/boy-chef.jpg",
-        Name: "Şahin  Əsədov",
-    },
-    {
-        Id: 10,
-        Image: "images/girl-chef.jpg",
-        Name: "İlahə İbrahimova",
-    },
-    {
-        Id: 11,
-        Image: "images/boy-chef.jpg",
-        Name: "Rasim Rüstəmov",
-    },
-    {
-        Id: 12,
-        Image: "images/boy-chef.jpg",
-        Name: "İlkin Rüstəmov",
-    },
-    {
-        Id: 13,
-        Image: "images/boy-chef.jpg",
-        Name: "Səməd Aslanov",
-    },
-    {
-        Id: 14,
-        Image: "images/boy-chef.jpg",
-        Name: "Murad Abbosov",
-    },
+    }
 ]
 
 members.forEach(function (member) {
