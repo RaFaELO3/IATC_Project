@@ -112,7 +112,7 @@ a {
     cursor: pointer;
 }
 
- a:hover {
+a:hover {
     text-decoration-color: #d39f01;
 }
 
@@ -314,6 +314,10 @@ a {
     height: 64px;
 }
 
+.cat {
+    cursor: pointer;
+}
+
 .cat h3 {
     font-size: 1.875rem;
 }
@@ -330,7 +334,7 @@ a {
     object-fit: cover;
 }
 
-.menu .popup{
+.menu .popup {
     backdrop-filter: blur(0);
     background-color: rgba(0, 0, 0, 0.3);
 }
@@ -350,7 +354,7 @@ a {
     color: #842029;
 }
 
-.order{
+.order {
     padding: 0.8rem 1.5rem;
     border: navy;
     border-radius: 30px;
@@ -359,7 +363,7 @@ a {
     transition: 0.3s;
 }
 
-.order:hover{
+.order:hover {
     background-color: #72121a;
     color: #c5a67c;
 }
@@ -410,14 +414,14 @@ a {
 }
 
 .col6 .img1 {
-    background: url(https://images01.nicepage.com/d9/62/d962208d4921b6c2f7de9b7ea291122d.jpeg) no-repeat;
+    background: url("https://images01.nicepage.com/d9/62/d962208d4921b6c2f7de9b7ea291122d.jpeg") no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 604px;
 }
 
 .col6 .img2 {
-    background: url("../../../../images/salad1.jpg") no-repeat;
+    background: url("../../images/salad1.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 604px;
@@ -431,7 +435,7 @@ a {
 }
 
 .col6 .img4 {
-    background-image:url("https://images01.nicepage.com/7d/e3/7de33e0b3b5a270c4ed54706cd2a70f8.jpeg")!important;
+    background-image: url("https://images01.nicepage.com/7d/e3/7de33e0b3b5a270c4ed54706cd2a70f8.jpeg") !important;
     background-position: center;
     background-size: cover;
     min-height: 604px;
