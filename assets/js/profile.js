@@ -23,6 +23,7 @@ const panel = document.querySelectorAll(".panel");
 function onTabClick(event) {
 
   for (let i = 0; i < tab.length; i++) {
+    console.log("clicked")
     tab[i].classList.remove("active");
   }
 
@@ -38,6 +39,9 @@ function onTabClick(event) {
 
 for (let i = 0; i < tab.length; i++) {
   tab[i].addEventListener('click', onTabClick, false);
+  for (let j = 0; j < tab[i].children.length; j++) {
+    tab[i].children[j].style.pointerEvents ="none";
+  }
 }
 
 
